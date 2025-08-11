@@ -4,22 +4,22 @@ import React from "react";
 const techStack = [
   {
     name: "HTML",
-    date: "Since 2020",
-    duration: "5 years",
+    date: "2022-present",
+    duration: "Skills Rate: 6/10",
     code: `<!DOCTYPE html>
 <html>
-  <head>
+  <head>    
     <title>Mission</title>
   </head>
   <body>
-    <h1>Code like a soldier</h1>
+    <h1>Upskill in web development</h1>
   </body>
 </html>`,
   },
   {
     name: "CSS",
-    date: "Since 2020",
-    duration: "5 years",
+    date: "2024-present",
+    duration: "Skills Rate: 5/10",
     code: `body {
   background-color: #1C1C1C;
   color: white;
@@ -28,38 +28,38 @@ const techStack = [
   },
   {
     name: "MongoDB",
-    date: "Since 2022",
-    duration: "3 years",
+    date: "2024 - Present",
+    duration: "Skills Rate 5/10",
     code: `db.users.insertOne({
   name: "Jake",
   role: "Frontend Dev",
-  mission: "Execute the bugs"
+  mission: "Upskill in web development"
 });`,
   },
   {
     name: "Express.js",
-    date: "Since 2022",
-    duration: "3 years",
+    date: "2024 - Present",
+    duration: "Skills Rate: 5/10",
     code: `const express = require("express");
 const app = express();
 app.get("/mission", (req, res) => {
-  res.send("Code like a soldier.");
+  res.send("Hello World!.");
 });
 app.listen(3000);`,
   },
   {
     name: "React",
-    date: "Since 2021",
-    duration: "4 years",
+    date: "2024 - Present",
+    duration: "Skills Rate: 6/10",
     code: `function Mission() {
-  return <h1>Code like a soldier</h1>;
+  return <h1>Hello World</h1>;
 }
 export default Mission;`,
   },
   {
     name: "Node.js",
-    date: "Since 2021",
-    duration: "4 years",
+    date: "2024 - Present",
+    duration: "Skills Rate: 5/10",
     code: `const http = require("http");
 http.createServer((req, res) => {
   res.end("Mission accomplished");
@@ -67,15 +67,15 @@ http.createServer((req, res) => {
   },
   {
     name: "MySQL",
-    date: "Since 2023",
-    duration: "2 years",
+    date: "2023",
+    duration: "Skills Rate: 5/10",
     code: `CREATE TABLE missions (
   id INT AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(255),
   status VARCHAR(50)
 );
 INSERT INTO missions (title, status)
-VALUES ("Code like a soldier", "active");`,
+VALUES ("Hello World", "active");`,
   },
 ];
 
@@ -129,10 +129,10 @@ export default function Bag() {
                   <h3 className="text-lg font-bold text-green-300">
                     {tech.name}
                   </h3>
-                  <p className="text-xs text-gray-300">
+                  <p className="text-xs font-Green text-[#8FAF6F]">
                     {tech.date} · {tech.duration}
                   </p>
-                  <pre className="mt-2 p-3 rounded bg-[#1C1C1C] text-sm font-mono overflow-x-auto whitespace-pre-wrap">
+                  <pre className="mt-2 p-3 rounded bg-[#1C1C1C] text-sm font-Soldier overflow-x-auto whitespace-pre-wrap">
                     {tech.code}
                   </pre>
                 </div>
