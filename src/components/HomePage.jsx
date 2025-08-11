@@ -12,6 +12,7 @@ const HomePage = () => {
         Projects
       </h1>
       <About />
+      <footer className="text-center text-white py-4"> footer</footer>
     </div>
   );
 };
