@@ -29,8 +29,8 @@ const Hero = () => {
           </h1>
         </div>
         <p className="pt-2 text-start md:text-start font-Army text-[#8FAF6F] ">
-          Hey! I’m Jake, once dreaming of being a soldier, now hunting bugs in
-          the code.
+          Hey! I’m Jake, once dreaming of being a soldier, now crawling through
+          code to become a developer.
         </p>
         <div className="items-center justify-center mt-5 md:justify-start rounded-full outline-red flex flex-row ">
           <div className="flex space-x-6 text-gray-400 text-2xl">
