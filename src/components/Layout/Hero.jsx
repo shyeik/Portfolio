@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 const Hero = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between px-8 py-16 bg-[#1C1C1C] min-h-[60vh] ">
-      <div className="md:w-1/2 text-start md:text-left mb-8 md:mb-0 ">
+      <div className="md:w-1/2 text-start mt-10 md:text-left mb-8 md:mb-0 ">
         <div className="flex flex-col text-start md:flex-col">
           {/* First line */}
           <h1 className="text-2xl font-Army text-red-600 font-bold">
