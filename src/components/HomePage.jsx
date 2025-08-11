@@ -18,7 +18,7 @@ const HomePage = () => {
       </h1>
       <About />
       <footer className="bg-[#224f1c] text-gray-300 py-8 mt-12 border-t border-green-700">
-        <div className="max-w-6xl mx-auto px-4 grid grid-cols-3 md:grid-cols-3 gap-8">
+        <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand / About */}
           <div>
             <h2 className="text-green-400 text-xl font-bold font-mono mb-3">
