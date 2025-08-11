@@ -5,7 +5,7 @@ import About from "./Layout/About";
 
 const HomePage = () => {
   return (
-    <div className="bg-black min-h-screen">
+    <div className="bg-black h-full ">
       <Header />
       <Hero />
       <h1 className=" justify-center text-4xl text-white font-bold text-center transition-transform duration-300 delay-75 ease-in-out ">

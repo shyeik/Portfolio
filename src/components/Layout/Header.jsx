@@ -17,7 +17,7 @@ const Header = () => {
           </span>
         </button>
 
-        <div className="flex gap-6 bg-transparent outline-1 outline-white rounded-2xl shadow-sm shadow-white py-4 px-6">
+        <div className="flex gap-4 bg-transparent outline-1 outline-white rounded-2xl shadow-sm shadow-white py-4 px-6">
           <a
             href="/"
             className="hover:text-gray-400 relative text-gray-300 font-bold after:content-[''] after:absolute after:left-0 after:top-8 after:h-[2px] after:w-0 after:bg-red-400 after:transition-all after:duration-300 hover:after:w-full hover:after:shadow-[0_0_8px_#4ade80] "

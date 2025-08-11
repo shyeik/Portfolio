@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-black w-full h-150">
+    <div className="bg-black w-full h-full">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-8">
         {/* 1 */}
         <div class="parent">
