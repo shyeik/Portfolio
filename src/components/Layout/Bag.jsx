@@ -138,10 +138,6 @@ export default function Bag() {
                 </div>
               ))}
             </div>
-
-            <div className="absolute right-4 bottom-3 text-xs text-gray-300">
-              Hover to pause
-            </div>
           </div>
         </div>
 
@@ -167,10 +163,6 @@ export default function Bag() {
                   <p className="text-sm font-semibold">{tool.name}</p>
                 </div>
               ))}
-            </div>
-
-            <div className="absolute right-4 bottom-3 text-xs text-gray-300">
-              Hover to pause
             </div>
           </div>
         </div>
