@@ -14,7 +14,7 @@ const HomePage = () => {
       </h1>
       <Bag />
       <h1 className=" justify-center font-Army text-2xl text-white  text-center transition-transform duration-300 delay-75 ease-in-out ">
-        Missions Complete
+        Missions Completed
       </h1>
       <About />
       <footer className="bg-[#224f1c] text-gray-300 py-8 mt-12 border-t border-green-700">
