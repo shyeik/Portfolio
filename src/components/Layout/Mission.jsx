@@ -54,11 +54,10 @@ const Mission = () => {
             <div className="content-box">
               <span className="card-title">Project 3</span>
               <p className="card-content">Working on it</p>
-              <span className="see-more">See More</span>
+              <span className="see-more">Visit</span>
             </div>
             <div className="date-box">
               <span className="month">TBA</span>
-              <span className="month">N/A</span>
             </div>
           </div>
         </div>
@@ -68,11 +67,10 @@ const Mission = () => {
             <div className="content-box">
               <span className="card-title">Project 4</span>
               <p className="card-content">Working on it</p>
-              <span className="see-more">See More</span>
+              <span className="see-more">Visit</span>
             </div>
             <div className="date-box">
               <span className="month">TBA</span>
-              <span className="month">N/A</span>
             </div>
           </div>
         </div>
