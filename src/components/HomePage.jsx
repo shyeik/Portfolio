@@ -83,22 +83,17 @@ const HomePage = () => {
           {/* Quick Links */}
           <div className="">
             <h3 className="text-green-400 font-semibold font-mono mb-3">
-              Quick Links
+              Sections
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#techstack" className="hover:text-green-300">
-                  Tech Stack
-                </a>
-              </li>
-              <li>
                 <a href="#tools" className="hover:text-green-300">
-                  Tools
+                  Tech Stack & Tools
                 </a>
               </li>
               <li>
                 <a href="#projects" className="hover:text-green-300">
-                  Projects
+                  Missions Completed
                 </a>
               </li>
               <li>

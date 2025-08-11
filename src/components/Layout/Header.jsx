@@ -17,7 +17,7 @@ const Header = () => {
         isScrolled ? "bg-[#1C1C1C] shadow-md" : "bg-transparent"
       }`}
     >
-      <nav className="flex justify-between items-center px-8 py-4 text-black max-w-7xl mx-auto">
+      <nav className="flex justify-between items-center font-mono px-8 py-4 text-black max-w-7xl mx-auto">
         {/* Portfolio Button */}
         <button className="cssbuttons-io">
           <span>
