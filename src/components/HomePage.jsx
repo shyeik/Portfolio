@@ -3,6 +3,7 @@ import Header from "./Layout/Header";
 import Hero from "./Layout/Hero";
 import About from "./Layout/Mission";
 import Bag from "./Layout/Bag";
+import FAQChatbot from "./FAQChatbot";
 
 const HomePage = () => {
   return (
@@ -145,6 +146,7 @@ const HomePage = () => {
               </a>
             </div>
           </div>
+          <FAQChatbot />
         </div>
 
         {/* Bottom Note */}
